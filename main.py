@@ -22,6 +22,7 @@ class Detector:
         url='https://ipinfo.io/'
         params={'token':self.api_key_ipinfo}
         response=requests.get(f'{url}{self.__get_ip()}/geo')
+        response.raise_for_status()
         data=response.json()
         return data
     def json_create(self):
