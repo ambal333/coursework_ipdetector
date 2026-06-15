@@ -8,3 +8,4 @@
 * либо передать его строкой в методе класса
 
 Первый параметр это API токен яндекса, а второй API TOKEN данного сайта: https://ipinfo.io/
+sfkosfkosfosfosopfopsfop
