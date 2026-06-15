@@ -52,7 +52,7 @@ class Detector:
             response=requests.put(self.get_yandex_link(),files={'file':f})
         return 'файл добавлен'
 
-ip = Detector('IP_PY-254','y0__wgBEIjItOADGNuWAyCRkfH2FxMP-fVDRx12Ugn7xPvrKl3428D4','54dbcf15770003')
+ip = Detector('IP_PY-254',API_KEY,api_key_ip)
 ip.create_folder_yandexdisc()
 res=ip.send_file_yandex()
 print(res)
