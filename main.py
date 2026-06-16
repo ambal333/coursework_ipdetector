@@ -1,8 +1,8 @@
 import requests
 import json
 import os
-from api_key import API_KEY
-from API_KEY_IP import api_key_ip
+# from api_key import API_KEY
+# from API_KEY_IP import api_key_ip
 class Detector:
     folder='result.json'
     file='ip_info.json'
